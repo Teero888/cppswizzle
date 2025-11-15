@@ -1,5 +1,5 @@
-#ifndef VEC3_H
-#define VEC3_H
+#ifndef VEC3_HPP
+#define VEC3_HPP
 
 struct vec2;
 struct vec3;
@@ -175,4 +175,4 @@ SwizzleProxy3<I0, I1, I2>::operator=(const vec3 &other) {
   return *this;
 }
 
-#endif // VEC3_H
+#endif // VEC3_HPP
